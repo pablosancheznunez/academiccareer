@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use academiccareer, please cite it as below."
+type: software
+title: "academiccareer: Descriptive, Evidence-Based Profiles of Academic Careers"
+version: 0.1.0
+date-released: 2026-11-02
+authors:
+  - family-names: "Sánchez-Núñez"
+    given-names: "Pablo"
+    orcid: "https://orcid.org/0000-0001-7845-9506"
+url: "https://pablosancheznunez.com/academiccareer/"
+repository-code: "https://github.com/pablosancheznunez/academiccareer"
+license: MIT
+keywords:
+  - research assessment
+  - responsible metrics
+  - CoARA
+  - DORA
+  - ORCID
+  - academic careers
+  - R
+abstract: >-
+  An R package that describes how a research career develops over time
+  across research outputs, software, data, funding, positions, supervision,
+  teaching, service, knowledge transfer, policy and open science, from
+  ORCID, OpenAlex and DataCite and evidence declared by the researcher,
+  without ranking or scoring people.

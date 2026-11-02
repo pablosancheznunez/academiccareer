@@ -1,0 +1,375 @@
+{
+ "orcid-identifier": {
+  "path": "0000-0002-1825-0097"
+ },
+ "person": {
+  "name": {
+   "given-names": {
+    "value": "Ana"
+   },
+   "family-name": {
+    "value": "Example"
+   }
+  }
+ },
+ "activities-summary": {
+  "employments": {
+   "affiliation-group": [
+    {
+     "summaries": [
+      {
+       "employment-summary": {
+        "role-title": "Postdoctoral researcher",
+        "department-name": null,
+        "start-date": {
+         "year": {
+          "value": "2015"
+         },
+         "month": null,
+         "day": null
+        },
+        "end-date": {
+         "year": {
+          "value": "2018"
+         },
+         "month": null,
+         "day": null
+        },
+        "organization": {
+         "name": "Institute North",
+         "address": {
+          "city": "X",
+          "region": null,
+          "country": "DE"
+         }
+        },
+        "url": null
+       }
+      }
+     ]
+    },
+    {
+     "summaries": [
+      {
+       "employment-summary": {
+        "role-title": "Lecturer",
+        "department-name": null,
+        "start-date": {
+         "year": {
+          "value": "2019"
+         },
+         "month": null,
+         "day": null
+        },
+        "end-date": null,
+        "organization": {
+         "name": "University South",
+         "address": {
+          "city": "X",
+          "region": null,
+          "country": "ES"
+         }
+        },
+        "url": null
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "educations": {
+   "affiliation-group": [
+    {
+     "summaries": [
+      {
+       "education-summary": {
+        "role-title": "PhD",
+        "department-name": null,
+        "start-date": {
+         "year": {
+          "value": "2010"
+         },
+         "month": null,
+         "day": null
+        },
+        "end-date": {
+         "year": {
+          "value": "2014"
+         },
+         "month": null,
+         "day": null
+        },
+        "organization": {
+         "name": "University South",
+         "address": {
+          "city": "X",
+          "region": null,
+          "country": "ES"
+         }
+        },
+        "url": null
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "qualifications": {
+   "affiliation-group": []
+  },
+  "invited-positions": {
+   "affiliation-group": []
+  },
+  "distinctions": {
+   "affiliation-group": [
+    {
+     "summaries": [
+      {
+       "distinction-summary": {
+        "role-title": "Early career award",
+        "department-name": null,
+        "start-date": {
+         "year": {
+          "value": "2021"
+         },
+         "month": null,
+         "day": null
+        },
+        "end-date": null,
+        "organization": {
+         "name": "Society Z",
+         "address": {
+          "city": "X",
+          "region": null,
+          "country": "ES"
+         }
+        },
+        "url": null
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "memberships": {
+   "affiliation-group": []
+  },
+  "services": {
+   "affiliation-group": [
+    {
+     "summaries": [
+      {
+       "service-summary": {
+        "role-title": "Editorial board member",
+        "department-name": null,
+        "start-date": {
+         "year": {
+          "value": "2022"
+         },
+         "month": null,
+         "day": null
+        },
+        "end-date": null,
+        "organization": {
+         "name": "Journal Q",
+         "address": {
+          "city": "X",
+          "region": null,
+          "country": "GB"
+         }
+        },
+        "url": null
+       }
+      }
+     ]
+    }
+   ]
+  },
+  "fundings": {
+   "group": [
+    {
+     "funding-summary": [
+      {
+       "title": {
+        "title": {
+         "value": "Project on open data"
+        }
+       },
+       "type": "grant",
+       "start-date": {
+        "year": {
+         "value": "2020"
+        },
+        "month": null,
+        "day": null
+       },
+       "end-date": {
+        "year": {
+         "value": "2023"
+        },
+        "month": null,
+        "day": null
+       },
+       "organization": {
+        "name": "National agency",
+        "address": {
+         "country": "ES"
+        }
+       },
+       "url": null
+      }
+     ]
+    }
+   ]
+  },
+  "works": {
+   "group": [
+    {
+     "work-summary": [
+      {
+       "title": {
+        "title": {
+         "value": "Open data practices in labs"
+        }
+       },
+       "type": "journal-article",
+       "publication-date": {
+        "year": {
+         "value": "2016"
+        },
+        "month": null,
+        "day": null
+       },
+       "external-ids": {
+        "external-id": [
+         {
+          "external-id-type": "doi",
+          "external-id-value": "10.5555/fx.0001"
+         }
+        ]
+       },
+       "url": null
+      }
+     ]
+    },
+    {
+     "work-summary": [
+      {
+       "title": {
+        "title": {
+         "value": "labtools: an R package"
+        }
+       },
+       "type": "software",
+       "publication-date": {
+        "year": {
+         "value": "2019"
+        },
+        "month": null,
+        "day": null
+       },
+       "external-ids": {
+        "external-id": [
+         {
+          "external-id-type": "doi",
+          "external-id-value": "10.5555/fx.0002"
+         }
+        ]
+       },
+       "url": null
+      }
+     ]
+    },
+    {
+     "work-summary": [
+      {
+       "title": {
+        "title": {
+         "value": "Survey data on data sharing"
+        }
+       },
+       "type": "data-set",
+       "publication-date": {
+        "year": {
+         "value": "2020"
+        },
+        "month": null,
+        "day": null
+       },
+       "external-ids": {
+        "external-id": [
+         {
+          "external-id-type": "doi",
+          "external-id-value": "10.5555/fx.0003"
+         }
+        ]
+       },
+       "url": null
+      }
+     ]
+    },
+    {
+     "work-summary": [
+      {
+       "title": {
+        "title": {
+         "value": "Teaching open science"
+        }
+       },
+       "type": "learning-object",
+       "publication-date": {
+        "year": {
+         "value": "2022"
+        },
+        "month": null,
+        "day": null
+       },
+       "external-ids": {
+        "external-id": []
+       },
+       "url": null
+      }
+     ]
+    }
+   ]
+  },
+  "peer-reviews": {
+   "group": [
+    {
+     "peer-review-group": [
+      {
+       "peer-review-summary": [
+        {
+         "reviewer-role": "reviewer",
+         "completion-date": {
+          "year": {
+           "value": "2021"
+          },
+          "month": null,
+          "day": null
+         },
+         "convening-organization": {
+          "name": "Journal Q"
+         }
+        },
+        {
+         "reviewer-role": "reviewer",
+         "completion-date": {
+          "year": {
+           "value": "2023"
+          },
+          "month": null,
+          "day": null
+         },
+         "convening-organization": {
+          "name": "Journal Q"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

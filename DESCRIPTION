@@ -1,0 +1,41 @@
+Package: academiccareer
+Title: Descriptive, Evidence-Based Profiles of Academic Careers
+Version: 0.1.0
+Authors@R:
+    person("Pablo", "Sánchez-Núñez", email = "psancheznunez@outlook.com",
+           role = c("aut", "cre", "cph"), comment = c(ORCID = "0000-0001-7845-9506"))
+Description: Describes how a research career develops over time across the
+    dimensions that responsible research assessment asks to recognise, not
+    only publications: research outputs, software, data, funding, positions,
+    supervision and teaching, peer review and service, knowledge transfer,
+    science policy and open science. Evidence is collected from the public
+    records of 'ORCID' <https://orcid.org/>, 'OpenAlex' <https://openalex.org/>
+    and 'DataCite' <https://datacite.org/>, completed with evidence declared by
+    the researcher, and placed in context, including career breaks. The
+    package builds timelines, contributions by period, rule-based career
+    transitions and a descriptive profile that highlights contributions such
+    as software, data, transfer or teaching, with the coverage of each source
+    stated explicitly. It does not rank or score researchers, does not compare
+    people, and does not use journal-based metrics.
+License: MIT + file LICENSE
+URL: https://pablosancheznunez.com/academiccareer/,
+    https://github.com/pablosancheznunez/academiccareer
+BugReports: https://github.com/pablosancheznunez/academiccareer/issues
+Depends:
+    R (>= 4.1.0)
+Imports:
+    curl,
+    graphics,
+    grDevices,
+    jsonlite,
+    utils
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+Encoding: UTF-8
+Language: en-GB
+Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.1.1

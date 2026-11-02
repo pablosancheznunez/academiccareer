@@ -1,0 +1,14 @@
+id,en,es,sources,coverage,description
+research_outputs,Research outputs,Resultados de investigación,ORCID; OpenAlex; DataCite,good,"Articles, books, chapters, preprints, conference papers, reports and theses."
+software,Software,Software,ORCID; DataCite,partial,"Research software with a persistent identifier, for example archived in Zenodo. Code only on GitHub is not covered."
+data,Data,Datos,ORCID; DataCite; OpenAlex,partial,Datasets with a persistent identifier.
+funding,Funding,Financiación,ORCID,partial,Grants and contracts recorded in ORCID.
+employment,Positions,Puestos,ORCID,partial,"Employment, invited and visiting positions recorded in ORCID."
+education,Education,Formación,ORCID,partial,Degrees and qualifications recorded in ORCID.
+supervision_mentoring,Supervision and mentoring,Dirección y mentoría,ORCID (rarely),low,"Supervised theses and mentoring. Open sources rarely record them: declare them with ac_add_evidence()."
+teaching,Teaching,Docencia,ORCID (rarely),low,"Courses, teaching materials and learning objects. Mostly declared by the researcher."
+service,Peer review and service,Revisión y servicio,ORCID,partial,"Peer review, editorial work, committees, memberships and service recorded in ORCID."
+knowledge_transfer,Knowledge transfer,Transferencia de conocimiento,ORCID; OpenAlex (co-authors' sectors),low,"Patents, contracts and collaboration with companies, government or non-profit organisations."
+science_policy,Science policy,Política científica,ORCID (rarely),low,"Standards, policy documents, advisory roles. Mostly declared by the researcher."
+public_engagement,Public engagement,Divulgación,ORCID (rarely),low,"Talks, media, outreach. Mostly declared by the researcher."
+distinctions,Distinctions,Distinciones,ORCID,partial,Awards and honours recorded in ORCID.

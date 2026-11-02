@@ -1,0 +1,108 @@
+---
+title: "Get started with academiccareer"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Get started with academiccareer}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(collapse = TRUE, comment = "#>", fig.width = 7, fig.height = 3.5)
+```
+
+Responsible research assessment, as promoted by DORA and the Coalition for Advancing Research Assessment, asks evaluators to recognise the whole range of contributions a researcher makes: software, data, teaching, supervision, transfer, service, open science. academiccareer describes how those contributions develop over a career, from open evidence and from what the researcher declares.
+
+It describes; it does not rank. There is no score, no function to compare people, and no journal-based metric.
+
+```{r setup}
+library(academiccareer)
+```
+
+## 1. Collect the evidence
+
+`ac_collect()` reads the public records of ORCID, OpenAlex and DataCite for one ORCID iD and merges outputs found in several sources by DOI.
+
+```{r collect, eval = FALSE}
+career <- ac_collect("0000-0002-1825-0097", mailto = "you@university.edu")
+```
+
+Use it for your own record, or with the person's consent: public records are still personal data. OpenAlex matches works to people automatically and can be wrong, so check the evidence before using it.
+
+This vignette uses the four fictitious careers included in the package (synthetic data), so it needs no network.
+
+```{r example}
+career <- ac_example("software")
+career
+```
+
+## 2. Complete it
+
+Open sources rarely record supervision, teaching, policy advice or outreach. Add them yourself; they are always shown as declared by the researcher.
+
+```{r declare}
+career <- ac_add_evidence(career, "supervision_mentoring", "PhD thesis co-supervised",
+                          start = 2021, end = 2025, role = "Co-supervisor")
+```
+
+Career breaks are part of the context and appear as breaks, not as gaps:
+
+```{r context}
+career$context$breaks
+```
+
+How well each source covers each dimension matters as much as what it finds:
+
+```{r coverage}
+ac_dimensions()[, c("id", "sources", "coverage")]
+```
+
+## 3. Timeline
+
+```{r timeline}
+tl <- ac_timeline(career)
+tl
+plot(tl)
+```
+
+## 4. Contributions by period and transitions
+
+```{r contributions}
+ac_contributions(career)
+```
+
+Transitions are found with transparent rules: a new organisation or country, a change in the mix of outputs, the first evidence of a new kind of contribution, a career break.
+
+```{r transitions}
+ac_transitions(career)
+```
+
+## 5. Profile
+
+The profile highlights what stands out, with documented thresholds, so that careers built on software, data, transfer or teaching become visible.
+
+```{r profile}
+ac_profile(career)
+```
+
+The four example careers show different profiles:
+
+```{r examples}
+for (w in c("traditional", "transfer", "teaching")) {
+  cat("\n", w, ":\n", sep = "")
+  cat(paste("-", ac_profile(ac_example(w))$statements), sep = "\n")
+}
+```
+
+Profiles are also available in Spanish:
+
+```{r spanish}
+ac_profile(ac_example("teaching"), lang = "es")$statements
+```
+
+## 6. Report
+
+```{r report, eval = FALSE}
+ac_report(career, "career-report.html")
+ac_report(career, "perfil.html", lang = "es")
+```

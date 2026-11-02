@@ -1,0 +1,35 @@
+{
+ "meta": {
+  "total": 2
+ },
+ "data": [
+  {
+   "attributes": {
+    "doi": "10.5555/FX.0003",
+    "types": {
+     "resourceTypeGeneral": "Dataset"
+    },
+    "titles": [
+     {
+      "title": "Survey data on data sharing"
+     }
+    ],
+    "publicationYear": 2020
+   }
+  },
+  {
+   "attributes": {
+    "doi": "10.5555/fx.0005",
+    "types": {
+     "resourceTypeGeneral": "Software"
+    },
+    "titles": [
+     {
+      "title": "labtools 2.0"
+     }
+    ],
+    "publicationYear": 2024
+   }
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+key,en,es
+software_data,"Software and data make up {pct}% of the outputs ({n} of {total}).","El software y los datos suponen el {pct}% de los resultados ({n} de {total})."
+open_science,"{pct}% of the outputs with known status are open access ({n} of {total}).","El {pct}% de los resultados con estado conocido están en acceso abierto ({n} de {total})."
+transfer,"{pct}% of the outputs with known affiliations involve companies, government, non-profit or health organisations ({n} of {total}).","El {pct}% de los resultados con afiliaciones conocidas implican a empresas, administraciones, organizaciones sin ánimo de lucro o sanitarias ({n} de {total})."
+transfer_events,"Knowledge transfer activities recorded, such as patents or contracts: {n}.","Actividades de transferencia de conocimiento registradas, como patentes o contratos: {n}."
+international,"{pct}% of the outputs with known affiliations are international collaborations ({n} of {total}).","El {pct}% de los resultados con afiliaciones conocidas son colaboraciones internacionales ({n} de {total})."
+teaching_mentoring,"Teaching, supervision or mentoring activities recorded: {n}.","Actividades de docencia, dirección o mentoría registradas: {n}."
+service,"Peer review, editorial or service activities recorded: {n}.","Actividades de revisión, edición o servicio registradas: {n}."
+policy_engagement,"Science policy or public engagement activities recorded: {n}.","Actividades de política científica o divulgación registradas: {n}."
+funding,"Funded projects or grants recorded: {n}.","Proyectos o ayudas con financiación registrados: {n}."
+span,"Evidence from {from} to {to}.","Evidencias de {from} a {to}."
+no_evidence,"No evidence was found for: {dims}. Open sources rarely record these; not found does not mean it did not happen.","No se encontraron evidencias de: {dims}. Las fuentes abiertas rara vez las recogen; no encontrarlas no significa que no existan."
+title,Career profile,Perfil de trayectoria
+summary,Distinctive contributions,Contribuciones distintivas
+none_distinctive,No dimension reaches the thresholds used to highlight contributions.,Ninguna dimensión alcanza los umbrales usados para destacar contribuciones.
+timeline,Timeline,Línea temporal
+contributions,Contributions by period,Contribuciones por periodo
+transitions,Transitions,Transiciones
+evidence,Evidence,Evidencias
+sources,Sources and coverage,Fuentes y cobertura
+context,Context,Contexto
+breaks,Career breaks,Interrupciones de la carrera
+dimension,Dimension,Dimensión
+coverage,Coverage,Cobertura
+consulted,Sources consulted,Fuentes consultadas
+declared,declared by the researcher,declarado por la persona
+year,Year,Año
+title_col,Title,Título
+source,Source,Fuente
+status,Status,Estado
+items,Items,Elementos
+caveat_title,How to read this profile,Cómo leer este perfil
+caveat,"This profile describes the evidence available in open sources and the evidence declared by the researcher. It does not rank, score or compare people, and it uses no journal-based metrics. Coverage differs between dimensions: where coverage is low, missing evidence says almost nothing. Public records are personal data; use this profile only with the consent of the person.","Este perfil describe las evidencias disponibles en fuentes abiertas y las declaradas por la persona. No clasifica, puntúa ni compara a personas, y no usa métricas basadas en revistas. La cobertura varía entre dimensiones: donde es baja, que falten evidencias apenas dice nada. Los registros públicos son datos personales; usa este perfil solo con el consentimiento de la persona."
+generated,Generated with academiccareer on,Generado con academiccareer el
+legend,"Each cell is a year; darker means more evidence. Hatched years are career breaks.","Cada celda es un año; más oscuro indica más evidencias. Los años rayados son interrupciones de la carrera."
+field,Field,Área
+notes,Notes,Notas

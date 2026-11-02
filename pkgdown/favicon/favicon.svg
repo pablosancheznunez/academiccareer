@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 278" width="240" height="278" role="img" aria-label="academiccareer logo">
+  <polygon points="120,4 236,71 236,207 120,274 4,207 4,71" fill="#4b3f72" stroke="#362d54" stroke-width="6"/>
+  <rect x="40" y="70" width="160" height="140" rx="12" fill="#ffffff"/>
+  <rect x="56" y="150" width="24" height="44" rx="3" fill="#8e83b5"/>
+  <rect x="88" y="126" width="24" height="68" rx="3" fill="#4b3f72"/>
+  <rect x="120" y="108" width="24" height="86" rx="3" fill="#e0a43a"/>
+  <rect x="152" y="88" width="24" height="106" rx="3" fill="#3e8a6c"/>
+</svg>

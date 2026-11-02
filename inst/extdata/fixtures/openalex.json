@@ -1,0 +1,98 @@
+{
+ "meta": {
+  "count": 3
+ },
+ "results": [
+  {
+   "id": "https://openalex.org/W1",
+   "doi": "https://doi.org/10.5555/FX.0001",
+   "title": "Open data practices in labs",
+   "type": "article",
+   "publication_year": 2016,
+   "open_access": {
+    "is_oa": true
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "orcid": "https://orcid.org/0000-0002-1825-0097"
+     },
+     "institutions": [
+      {
+       "country_code": "DE",
+       "type": "education"
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "country_code": "US",
+       "type": "company"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "https://openalex.org/W2",
+   "doi": "https://doi.org/10.5555/fx.0004",
+   "title": "A second article",
+   "type": "article",
+   "publication_year": 2021,
+   "open_access": {
+    "is_oa": false
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "country_code": "ES",
+       "type": "education"
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "orcid": "https://orcid.org/0000-0002-1825-0097"
+     },
+     "institutions": [
+      {
+       "country_code": "ES",
+       "type": "education"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "https://openalex.org/W3",
+   "doi": null,
+   "title": "A preprint without DOI",
+   "type": "preprint",
+   "publication_year": 2023,
+   "open_access": {
+    "is_oa": true
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "orcid": "https://orcid.org/0000-0002-1825-0097"
+     },
+     "institutions": []
+    }
+   ]
+  }
+ ]
+}

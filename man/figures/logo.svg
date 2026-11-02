@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 278" width="240" height="278" role="img" aria-label="academiccareer logo">
+  <polygon points="120,4 236,71 236,207 120,274 4,207 4,71" fill="#4b3f72" stroke="#362d54" stroke-width="6"/>
+  <rect x="44" y="66" width="152" height="116" rx="10" fill="#ffffff" opacity=".96"/>
+  <line x1="58" y1="164" x2="182" y2="164" stroke="#c9c2dd" stroke-width="3"/>
+  <rect x="62" y="132" width="16" height="32" rx="2" fill="#8e83b5"/>
+  <rect x="88" y="118" width="16" height="46" rx="2" fill="#8e83b5"/>
+  <rect x="114" y="122" width="16" height="42" rx="2" fill="#4b3f72"/>
+  <rect x="140" y="102" width="16" height="62" rx="2" fill="#e0a43a"/>
+  <rect x="166" y="90" width="12" height="74" rx="2" fill="#3e8a6c"/>
+  <path d="M62 112 C 92 100, 120 104, 176 78" fill="none" stroke="#4b3f72" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 8"/>
+  <circle cx="176" cy="78" r="6" fill="#4b3f72"/>
+  <text x="120" y="226" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#ffffff">academiccareer</text>
+</svg>

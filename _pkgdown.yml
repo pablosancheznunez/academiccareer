@@ -1,0 +1,55 @@
+url: https://pablosancheznunez.com/academiccareer/
+
+template:
+  bootstrap: 5
+  bslib:
+    primary: "#4b3f72"
+  opengraph:
+    image:
+      src: man/figures/card.png
+      alt: "academiccareer: descriptive, evidence-based profiles of academic careers"
+
+authors:
+  Pablo Sánchez-Núñez:
+    href: https://pablosancheznunez.com
+
+home:
+  links:
+  - text: Example report
+    href: https://pablosancheznunez.com/academiccareer/example/report.html
+  - text: Informe de ejemplo (español)
+    href: https://pablosancheznunez.com/academiccareer/example/report-es.html
+  - text: Author website
+    href: https://pablosancheznunez.com
+
+navbar:
+  structure:
+    left: [intro, reference, news]
+    right: [search, github]
+
+reference:
+- title: Collect
+  desc: Evidence from ORCID, OpenAlex and DataCite, or from a table.
+  contents:
+  - ac_collect
+  - ac_orcid
+  - ac_career
+  - ac_example
+  - ac_normalise_orcid
+- title: Complete
+  desc: What open sources miss, and the context of the career.
+  contents:
+  - ac_add_evidence
+  - ac_read_evidence
+  - ac_context
+- title: Describe
+  desc: Over time, with no ranking and no score.
+  contents:
+  - ac_timeline
+  - ac_contributions
+  - ac_transitions
+  - ac_profile
+- title: Report
+  contents:
+  - ac_report
+  - ac_dimensions
